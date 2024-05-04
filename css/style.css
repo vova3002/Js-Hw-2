@@ -21,4 +21,11 @@
   height: 50px;
   background-color: red;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.omg{
+  width: 45px;
+  height: 45px;
 }
