@@ -1,7 +1,7 @@
 {
   "name": "js-hw-2",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "graphic.js",
   "homepage": "https://vova3002.github.io/Js-Hw-2/",
   "scripts": {
     "start": "parcel ./src/graphic.html",
