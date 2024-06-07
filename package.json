@@ -8,8 +8,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "parcel Homework-2/src/stats.html",
-    "build": "parcel build Homework-2/src/stats.html --public-url /js-hw-2/"
+    "start": "parcel ./src/graphic.html",
+    "build": "parcel build ./src/graphic.html --public-url /js-hw-2/"
   },
   "keywords": [],
   "author": "",
