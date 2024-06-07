@@ -8,9 +8,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /js-hw-2/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel Homework-2/src/stats.html",
+    "build": "parcel build Homework-2/src/stats.html --public-url /js-hw-2/"
   },
   "keywords": [],
   "author": "",
