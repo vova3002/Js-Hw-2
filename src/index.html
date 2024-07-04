@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <form class="form">
-    <input class="name" name="name" type="text">
-    <input class="email" name="email" type="text">
-    <input class="message" name="message" type="text">
-    <button type="submit">Відправити дані</button>
-  </form>
-  <script type="module" src="./parcel.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="feedback__div">
+      <h2>Форма зворотного зв'язку</h2>
+      <form class="feedback__form">
+        <p>Імʼя</p>
+        <input
+          class="feedback__name"
+          type="text"
+          id="fname"
+          name="name"
+          placeholder="Ваше ім'я.."
+          required
+        />
+        <p>Електронна пошта</p>
+        <input
+          class="feedback__email"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Ваша електронна пошта.."
+          required
+        />
+        <p>Повідомлення</p>
+        <textarea
+          class="feedback__message"
+          id="message"
+          name="message"
+          placeholder="Ваше повідомлення.."
+          required
+        ></textarea>
+        <button class="feedback__button" type="submit">Надіслати</button>
+      </form>
+    </div>
+    <script type="module" src="./index.js"></script>
+    <!-- <script type="module" src="./test.js"></script> -->
+  </body>
 </html>
