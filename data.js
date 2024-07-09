@@ -1,6 +1,3 @@
-import {infoTemp} from "./template/template.hbs"
-console.log(infoTemp)
-
 const list = document.querySelector("ul")
 const data = [
   { name: 'vova', age: 30, occupation: 'developer' },
