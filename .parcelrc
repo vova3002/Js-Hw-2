@@ -1,5 +1,0 @@
-"transformers": {
-
- "*.handlebars": ["parcel-transformer-hbs"]
-
-}
