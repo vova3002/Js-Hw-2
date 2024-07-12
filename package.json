@@ -1,7 +1,7 @@
 {
   "name": "js-hw-2",
   "version": "1.0.0",
-  "main": "data.js",
+  "main": "index.js",
   "scripts": {
     "build": "parcel index.html --public-url /js-hw-2/",
     "start": "parcel index.html",
