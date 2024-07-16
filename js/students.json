@@ -1,6 +1,0 @@
-const studentList = document.querySelector("ul")
-const students = [
-  {
-    name: ""
-  }
-]
