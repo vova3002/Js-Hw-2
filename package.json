@@ -2,6 +2,7 @@
   "name": "js-hw-2",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://vova3002.github.io/Js-Hw-2/",
   "scripts": {
     "build": "parcel index.html --public-url /js-hw-2/",
     "start": "parcel index.html",
