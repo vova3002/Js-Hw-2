@@ -1,0 +1,12 @@
+[
+  "user1" ,{
+    "username": "vova",
+    "userage": 20,
+    "usercountry": "Germany"
+  },
+  "user2" ,{
+    "username": "khaliv",
+    "userage": 12,
+    "usercountry": "Spain"
+  }
+]
