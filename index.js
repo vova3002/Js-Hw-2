@@ -25,6 +25,7 @@ form.addEventListener("submit", (event) => {
 })
 const getLocalData = localStorage.getItem("studentsData")
 const transferParse = JSON.parse(getLocalData)
+const a = transferParse.
 console.log(transferParse)
 
 const students = [
