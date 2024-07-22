@@ -1,0 +1,35 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  margin: 16 0;
+}
+
+.input {
+  margin: 8 0;
+}
+
+label {
+  text-align: left;
+}
+
+form {
+  margin: 0 auto;
+  width:  400;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+  margin-top: 8;
+}
+
+.results {
+  margin: 8 auto;
+  width:  400;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
