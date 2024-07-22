@@ -1,12 +1,13 @@
 [
-  "user1" ,{
-    "username": "vova",
-    "userage": 20,
-    "usercountry": "Germany"
-  },
-  "user2" ,{
-    "username": "khaliv",
-    "userage": 12,
-    "usercountry": "Spain"
+  {
+    "userId": "user1",
+    "userName": "vova",
+    "userAge": 20,
+    "userCountry": "Germany"
+  }, {
+    "userId": "user2",
+    "userName": "khaliv",
+    "userAge": 12,
+    "userCountry": "Spain"
   }
 ]

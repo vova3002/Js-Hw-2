@@ -4,32 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  <form action="" id="7">
-    <li>
-      <h2>Перший студент</h2>
-      <input type="text" name="name1" id="1">
-      <p>name</p>
-      <input type="text" name="age1" id="2">
-      <p>age</p>
-      <input type="text" name="country1" id="3">
-      <p>country</p>
-    </li>
-    <li>
-      <h2>Другий студент</h2>
-      <input type="text" name="name2" id="4">
-      <p>name</p>
-      <input type="text" name="age2" id="5">
-      <p>age</p>
-      <input type="text" name="country2" id="6">
-      <p>country</p>
-    </li>
+  <form class="container" action="" id="7">
+    <h2>Додати студента</h2>
+    <label for="inputName">Name</label>
+    <input class="input" type="text" name="name" id="inputName">
+    <label for="inputAge">Age</label>
+    <input class="input" type="text" name="age" id="inputAge">
+    <label for="inputCountry">Country</label>
+    <input class="input" type="text" name="country" id="inputCountry">
     <button type="submit">Submit</button>
-    <input type="text" class="searchStudent" name="search" id="">
-    <p>Вести дані студентів</p>
   </form>
+  <div class="container results">
+    <p>Вести імʼя студентів</p>
+    <input class="input" type="text" class="searchStudent" name="search" id="search">
+  </div>
   <script type="module" src="./index.js"></script>
 </body>
 </html>
