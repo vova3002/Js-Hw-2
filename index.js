@@ -25,6 +25,12 @@ console.log(transferParse)
 
 searcher.addEventListener("input", (event) => {
   const inputValue = event.target.value
-  const inputFinder = transferParse.find((student) => student.userName === inputValue)
+  const inputFinder = transferParse.find((student) => {
+    if(student.userName === inputValue) {
+      alert("Ви віли дані студента")
+    } else {
+      
+    }
+  })
   console.log(inputFinder)
 })
