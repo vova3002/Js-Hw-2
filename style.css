@@ -33,3 +33,10 @@ button {
   flex-direction: column;
   text-align: center;
 }
+
+.numb {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
