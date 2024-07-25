@@ -1,78 +1,9 @@
-.body {
+.Text {
   display: flex;
-  flex-direction: column;
-  margin: 16 0;
-}
-
-.input {
-  margin: 8 0;
-}
-
-label {
-  text-align: left;
-}
-
-form {
-  margin: 0 auto;
-  width:  400;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   text-align: center;
-}
-
-button {
-  margin-top: 8;
-}
-
-.results {
-  margin: 8 auto;
-  width:  400;
-  display: flex;
+  font-size: 60px;
   justify-content: center;
-  flex-direction: column;
-  text-align: center;
 }
-
-.numb {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.button1 {
-  height: 50px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.button2 {
-  height: 50px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.button3 {
-  height: 50px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.button4 {
-  height: 50px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.button5 {
-  height: 50px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.hide {
+  display: none;
 }
