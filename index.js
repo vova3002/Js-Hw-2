@@ -23,6 +23,7 @@ const mins = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
  * миллисекунд в одной секунде (1000)
  */
 const secs = Math.floor((time % (1000 * 60)) / 1000);
+
 document.getElementById('1').innerHTML = days
 document.getElementById('2').innerHTML = hours
 document.getElementById('3').innerHTML = mins
