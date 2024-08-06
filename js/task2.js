@@ -17,14 +17,3 @@ let generatedDelay5 = randomDelay("text5", rngNumber4)
 Promise.race([generatedDelay1, generatedDelay2, generatedDelay3, generatedDelay4, generatedDelay5])
 .then(value => console.log(value))
 .catch(error => console.log(error))
-// /////
-// const makePromise = (text, delay) => {
-//   return new Promise(resolve => {
-//   setTimeout(() => resolve(text), delay);
-//   });
-// };
-//   const promiseA = makePromise("promiseA value", 1000);
-//   const promiseB = makePromise("promiseB value", 3000);
-//   Promise.race([promiseA, promiseB])
-//   .then(value => console.log(value)) // "promiseA value"
-//   .catch(error => console.log(error));
