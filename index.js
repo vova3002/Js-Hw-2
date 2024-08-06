@@ -21,7 +21,6 @@ function updateTime() {
 
 console.log(dayNumber)
 console.log(secondsNumber)
-// secondsNumber += 1
 
 daysleft.textContent = dayNumber;
 hoursleft.textContent = hoursNumber;
