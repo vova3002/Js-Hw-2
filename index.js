@@ -10,7 +10,6 @@ button.addEventListener("click", () => {
     <p class="pixabay__id">Id: ${mapArray.id}</p>
     <p class="pixabay__likes">Likes: ${mapArray.likes}</p>
     <img class="pixabay__img" src=${mapArray.userImageURL}>
-    <p class="pixabay__tags">Picture made: ${mapArray.tags}</p>
     </li>`
     return imgHTML
     })
@@ -18,7 +17,7 @@ button.addEventListener("click", () => {
     })
 })
 function getFetch() {
-  const fetcher = fetch(`https://pixabay.com/api/?key=43028857-0f1ea2a07ec80ac5b3d9eeb9b&page=${currentPage}&limit=5`).then((data) => data.json())
+  const fetcher = fetch(`https://pixabay.com/api/?key=43028857-0f1ea2a07ec80ac5b3d9eeb9b&page=${currentPage}&?limit=16`).then((data) => data.json())
   return fetcher
 }
 getFetch().then((data) => {
@@ -28,7 +27,6 @@ getFetch().then((data) => {
   <p class="pixabay__id">Id: ${mapArray.id}</p>
   <p class="pixabay__likes">Likes: ${mapArray.likes}</p>
   <img class="pixabay__img" src=${mapArray.userImageURL}>
-  <p class="pixabay__tags">Picture made: ${mapArray.tags}</p>
   </li>`
   return imgHTML
   })
