@@ -18,7 +18,7 @@ button.addEventListener("click", () => {
     })
 })
 function getFetch() {
-  const fetcher = fetch(`https://pixabay.com/api/?key=43028857-0f1ea2a07ec80ac5b3d9eeb9b&page=${currentPage}&limit=5`).then((data) => data.json())
+  const fetcher = fetch(`https://pixabay.com/api/?key=43028857-0f1ea2a07ec80ac5b3d9eeb9b&page=${currentPage}&?limit=16`).then((data) => data.json())
   return fetcher
 }
 getFetch().then((data) => {
