@@ -12,10 +12,10 @@ function getMovie(){
 getMovie().then((movieData) => {
   const movieHTML = movieData.map((moviesArray) => {
     console.log(movieData)
-    const moviesSctructure = `<li>
-    <p>${moviesArray.filmName}</p>
-    <img src=${moviesArray.filmImage}>
-    <p>${moviesArray.filmDescription}</p>
+    const moviesSctructure = `<li class="movie__item">
+    <p class="movie__name">${moviesArray.filmName}</p>
+    <img class="movie__img" src=${moviesArray.filmImage}>
+    <p class="movie__description">${moviesArray.filmDescription}</p>
     </li>`
     return moviesSctructure
   })
