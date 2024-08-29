@@ -10,7 +10,6 @@ button.addEventListener("click", () => {
     <p class="pixabay__id">Id: ${mapArray.id}</p>
     <p class="pixabay__likes">Likes: ${mapArray.likes}</p>
     <img class="pixabay__img" src=${mapArray.userImageURL}>
-    <p class="pixabay__tags">Picture made: ${mapArray.tags}</p>
     </li>`
     return imgHTML
     })
@@ -28,7 +27,6 @@ getFetch().then((data) => {
   <p class="pixabay__id">Id: ${mapArray.id}</p>
   <p class="pixabay__likes">Likes: ${mapArray.likes}</p>
   <img class="pixabay__img" src=${mapArray.userImageURL}>
-  <p class="pixabay__tags">Picture made: ${mapArray.tags}</p>
   </li>`
   return imgHTML
   })
