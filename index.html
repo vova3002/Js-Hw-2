@@ -8,9 +8,28 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <button>Завантажити ще</button>
-  <ul class="pixabay__list">
+  <form class="movie__formRemove" action="">
+    <input class="movie__destroy" type="text" name="movie5" id="movieRemover">
+    <label for="movieRemover">Remove movie</label>
+    <button type="submit">Submit id</button>
+  </form>
+  <ul class="movie__list">
   </ul>
+  <button class="movie__open">Open modal</button>
+  <div class="movie__modal movie__remove">
+    <button class="movie__close">Close modal</button>
+    <form class="movie__form" action="">
+      <input type="text" name="movie1" id="movieTitle">
+      <label for="movieTitle">Title</label>
+      <input type="text" name="movie2" id="movieGenre">
+      <label for="movieGenre">Genre</label>
+      <input type="text" name="movie3" id="movieDirector">
+      <label for="movieDirector">Director</label>
+      <input type="text" name="movie4" id="movieYear">
+      <label for="movieYear">Year</label>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
   <script type="module" src="./index.js"></script>
 </body>
 </html>
