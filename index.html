@@ -13,23 +13,23 @@
     <label for="movieRemover">Remove movie</label>
     <button type="submit">Submit id</button>
   </form>
-  <ul class="movie__list">
-  </ul>
   <button class="movie__open">Open modal</button>
   <div class="movie__modal movie__remove">
-    <button class="movie__close">Close modal</button>
     <form class="movie__form" action="">
-      <input type="text" name="movie1" id="movieTitle">
+      <button class="movie__close">Close modal</button>
       <label for="movieTitle">Title</label>
-      <input type="text" name="movie2" id="movieGenre">
+      <input class="movieCreate" type="text" name="movie1" id="movieTitle">
       <label for="movieGenre">Genre</label>
-      <input type="text" name="movie3" id="movieDirector">
+      <input class="movieCreate" type="text" name="movie2" id="movieGenre">
       <label for="movieDirector">Director</label>
-      <input type="text" name="movie4" id="movieYear">
+      <input class="movieCreate" type="text" name="movie3" id="movieDirector">
       <label for="movieYear">Year</label>
+      <input class="movieCreate" type="text" name="movie4" id="movieYear">
       <button type="submit">Submit</button>
     </form>
   </div>
+  <ul class="movie__list">
+  </ul>
   <script type="module" src="./index.js"></script>
 </body>
 </html>
