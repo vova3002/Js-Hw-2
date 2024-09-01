@@ -1,6 +1,5 @@
 const form = document.querySelector(".movie__form")
 form.addEventListener("submit", (event) => {
-  event.preventDefault()
   const movieTitle = event.target.elements.movie1.value
   const movieGenre = event.target.elements.movie2.value
   const movieDirector = event.target.elements.movie3.value
