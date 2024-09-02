@@ -9,11 +9,27 @@
 </head>
 <body>
   <form class="movie__formRemove" action="">
-    <input class="movie__destroy" type="text" name="movie5" id="movieRemover">
-    <label for="movieRemover">Remove movie</label>
-    <button type="submit">Submit id</button>
+    <input class="movie__destroy" placeholder="Remove movie (using id card)" type="text" name="movie5" id="movieRemover">
+    <button type="submit">Submit card id</button>
   </form>
-  <button class="movie__open">Open modal</button>
+<div class="movie__modalUpdate movie__hidden">
+  <form class="movie__formUpdate" action="">
+    <button class="movie__closeUpdate">Close modal</button>
+    <label for="movieId">Id</label>
+    <input class="movie__update" type="text" name="movie5" id="movieid">
+    <label for="movietitles">Title</label>
+    <input class="movieUpdate" type="text" name="movie6" id="movietitles">
+    <label for="moviegenre">Genre</label>
+    <input class="movieUpdate" type="text" name="movie7" id="moviegenre">
+    <label for="moviedirector">Director</label>
+    <input class="movieUpdate" type="text" name="movie8" id="moviedirector">
+    <label for="movieyear">Year</label>
+    <input class="movieUpdate" type="text" name="movie9" id="movieyear">
+    <button type="submit">Submit</button>
+  </form>
+</div>
+  <button class="movie__openUpdate">Update cards</button>
+  <button class="movie__open">Add more cards</button>
   <div class="movie__modal movie__remove">
     <form class="movie__form" action="">
       <button class="movie__close">Close modal</button>

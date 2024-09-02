@@ -1,5 +1,4 @@
 const form = document.querySelector(".movie__formRemove")
-const inputRemove = document.querySelector(".movie__destroy")
 
 form.addEventListener("submit", (event) => {
   const idReturn = event.target.elements.movie5.value
