@@ -29,18 +29,11 @@
       "year": 2010
     },
     {
-      "id": "8f2d",
-      "title": "Update",
+      "id": "6c17",
+      "title": "test",
       "genre": "Horror",
       "director": "Christopher Nolan",
-      "year": "2019"
-    },
-    {
-      "id": "6c17",
-      "title": "",
-      "genre": "",
-      "director": "",
-      "year": ""
+      "year": "2040"
     },
     {
       "id": "d269",
@@ -51,10 +44,10 @@
     },
     {
       "id": "a19e",
-      "title": "test",
-      "genre": "test",
-      "director": "test",
-      "year": "test"
+      "title": "dude",
+      "genre": "Horror",
+      "director": "Some noob",
+      "year": "2040"
     },
     {
       "id": "fba4",
@@ -62,6 +55,13 @@
       "genre": "test",
       "director": "test",
       "year": "test"
+    },
+    {
+      "id": "c2a9",
+      "title": "test",
+      "genre": "genre",
+      "director": "director",
+      "year": "2009"
     }
   ]
 }
